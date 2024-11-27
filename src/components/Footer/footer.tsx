@@ -1,6 +1,7 @@
 import { Container, Group, Anchor } from '@mantine/core';
 import { MantineLogo } from '@mantinex/mantine-logo';
 import classes from './FooterSimple.module.css';
+import '@mantine/core/styles.css';
 
 const links = [
   { link: '#', label: 'Contact' },
