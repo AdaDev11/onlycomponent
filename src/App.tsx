@@ -6,7 +6,7 @@ import FaqSimple from './components/FaqSimple/FaqSimple.tsx';
 
 const App: React.FC = () => {
   return (
-    <MantineProvider withGlobalStyles withNormalizeCSS>
+    <MantineProvider >
       <HeaderSearch />
       <FaqSimple />
       <FooterSimple />
